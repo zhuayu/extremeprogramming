@@ -4,9 +4,9 @@
 	"plugins" : [ "link-checker", "-highlight", "code-highlighter", "favicon", "-sharing", "sharing-plus"],
 	"pluginsConfig": {
 	        "favicon": {
-	            "shortcut": "images/favicon.ico",
-	            "bookmark": "images/favicon.ico",
-	            "appleTouch": "images/apple-touch-icon.png"
+	            "shortcut": "/images/favicon.ico",
+	            "bookmark": "/images/favicon.ico",
+	            "appleTouch": "/images/apple-touch-icon.png"
 	        },
 			"sharing": {
 			            "douban": true,
