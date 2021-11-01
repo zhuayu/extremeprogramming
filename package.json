@@ -1,0 +1,31 @@
+{
+  "name": "www.eXtremeProgramming.cn",
+  "version": "0.1.0",
+  "description": "斗西 - 极限编程",
+  "main": "SUMMARY.md",
+  "scripts": {
+    "serve": "gitbook serve --port 4002 --lrport 35730",
+    "build": "gitbook build",
+    "init": "gitbook init",
+    "install": "gitbook install",
+    "pdf": "gitbook pdf && open book.pdf",
+    "release": "git pull && gitbook install && gitbook build"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:home-plan/homeplan-xp.git"
+  },
+  "license": "Creative Commons BY-SA",
+  "dependencies": {
+    "gitbook-plugin-code-highlighter": "^1.0.7",
+    "gitbook-plugin-favicon": "0.0.2",
+    "gitbook-plugin-image-div": "0.0.4",
+    "gitbook-plugin-link-checker": "1.1.4",
+    "gitbook-plugin-sharing-plus": "0.0.2",
+    "lodash": ">=4.17.19",
+    "npm": ">=6.14.6"
+  }
+}
